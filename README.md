@@ -101,7 +101,7 @@ On Android, it will use `Gradle` so all you need to do is to point to the correc
   - In you `MainApplication.java` makes use of the package as following:
 
 ```java
-
+        import com.goldenowl.twittersignin.TwitterSigninPackage ; // <---- add this import
         /**
         * A list of packages used by the app. If the app uses additional views
         * or modules besides the default ones, add more packages here.
@@ -140,4 +140,3 @@ Code and documentation copyright 2016 Justin Nguyen. Code released under [the MI
 
 [react-native](http://facebook.github.io/react-native/)
 [react-native-facebook-login](https://github.com/magus/react-native-facebook-login)
-
